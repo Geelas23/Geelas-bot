@@ -1,7 +1,7 @@
     from telegram import Update
     from telegram.ext import Application, CommandHandler, ContextTypes
 
-    TOKEN = "MASUKIN_TOKEN_BOT_KAMU_DISINI"
+    TOKEN = "8866041721:AAGhRe91EXp4pRdjcXa5sw_OeM-eM91bdBY"
 
     async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Halo! Bot udah online di Railway 🚀")
